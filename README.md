@@ -13,8 +13,9 @@ A blockchain-powered task management system ensuring **immutability**, **securit
 - [Frontend](#frontend)  
 - [Security](#security)  
 - [Testing](#testing)  
-- [Deployment](#deployment)        
-- [Contact](#acknowledgements) 
+- [Deployment](#deployment)         
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ---
 
@@ -44,7 +45,13 @@ A decentralized application (dApp) for managing tasks on the Chromia blockchain,
 - Node.js v18+  
 - PostgreSQL v16.3+  
 - Docker (for local node setup)  
-- Chromia CLI (`chr`)  
+- Chromia CLI (`chr`)
+- cheeck for installation on the chromia official website using the link below
+
+```bash
+  https://docs.chromia.com/intro/installation/
+
+```
 
 ### **Backend Setup**  
 1. Clone the repository:  
@@ -75,7 +82,8 @@ A decentralized application (dApp) for managing tasks on the Chromia blockchain,
    ```  
 2. Install dependencies:  
    ```bash  
-    npm install  
+    npm install
+    pnpm install  
     npm install @chromia/ft4@0.8.0  
    ```  
 3. Run the development server:  
@@ -123,42 +131,7 @@ sequenceDiagram
 ```
 ---
 ## **Project Structure**  
-### **Repository Layout**  
-```bash
-Frontend Directory structure:
-└── ananya-addisu-frontend/
-    ├── README.md
-    ├── eslint.config.mjs
-    ├── next-env.d.ts
-    ├── next.config.ts
-    ├── package.json
-    ├── postcss.config.mjs
-    ├── tailwind.config.ts
-    ├── tsconfig.json
-    ├── public/
-    │   └── todo.PNG
-    └── src/
-        ├── app/
-        │   ├── globals.css
-        │   ├── layout.tsx
-        │   ├── page.tsx
-        │   ├── components/
-        │   │   └── NavBar.tsx
-        │   ├── create/
-        │   │   └── page.tsx
-        │   ├── list/
-        │   │   └── page.tsx
-        │   └── register/
-        │       └── page.tsx
-        ├── components/
-        │   ├── AddTodo.tsx
-        │   └── TodoItem.tsx
-        ├── hooks/
-        │   └── useTodos.ts
-        └── types/
-            └── todo.ts
-
-```
+### **Repository Layout for rell_backend**  
 
 ```bash  
 dapp-backend/  
@@ -420,6 +393,13 @@ npm run cypress  # Launches E2E test suite
 
 ## **Deployment**  
 ### **Steps**  
+
+more detail will be found here using the following link form chromia official website
+```bash
+  https://docs.chromia.com/intro/deployment/frontend-application/
+
+```
+
 1. Start Chromia node and retrieve `blockchainRid`:  
    ```bash  
    chr node start --wipe  
@@ -456,6 +436,9 @@ I am committed to staying updated with the company’s developments and will con
 
 Thank you once again for your invaluable support and for sparking my enthusiasm for this field.
 
-
+## Contact
 Prepared by: Nahom Keneni
+Education: Bahirdar-universty Ethiopia 
+Level: 3rd year software engineering student
 Email📧: nahomkeneni4@gmail.com
+Email📧: diakonnahomnahom@gmail.com
