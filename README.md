@@ -36,7 +36,7 @@ A decentralized application (dApp) for managing tasks on the Chromia blockchain,
 
 ### **Target Audience**  
 - **Developers**: Explore blockchain integration patterns.  
-- **End Users**: Manage tasks in a trustless, decentralized environment.  
+- **End Users**: Manage tasks in a trustless, in a completely decentralized environment.  
 
 ---
 
